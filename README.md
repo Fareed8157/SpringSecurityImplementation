@@ -11,9 +11,13 @@
 -----Test cases are written to verify one of the api------
 
 -----Swagger Documentation for this is also given--------
+
         SwaggerUI: http://localhost:9192/swagger-ui.html
         Api Docs : http://localhost:9192/v2/api-docs
+        
 -----Spring actuator is used also in order to check health,metrics of application and those actuator endpoints require authentication--------
+
+
 -----JWT token is used for authentication with the help of spring security-------
 
 
