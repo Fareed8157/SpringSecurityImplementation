@@ -1,0 +1,43 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
+
+server:
+    port: 9192
+
+jwt:
+  secret:
+    BFB9E95C91625C17159E3DC95C25E
+app:
+  url: /api/usermanagementservice/v1
+  title: Authentication
+
+info:
+  app:
+    description: '@project.description@'
+    encoding: '@project.build.sourceEncoding@'
+    java:
+      version: '@java.version@'
+    name: '@project.name@'
+    version: '@project.version@'
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+  endpoints:
+    enabled-by-default: false
+    metrics:
+      enabled: 'true '
+      id: health
+      sensitive: false
+    web:
+      base-path: ${app.url}
+      exposure:
+        include: health,info,metrics
