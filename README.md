@@ -3,9 +3,13 @@
 ------This is small service which provides Authentication service to Users and every user is saved in In-Memory database.
 
 1)User can register
+
 2)Can Login will get token in response
+
 3)See all users
+
 4)Delete User
+
 5)Update any User
 
 -----Test cases are written to verify one of the api------
