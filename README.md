@@ -9,6 +9,7 @@
 5)Update any User
 
 -----Test cases are written to verify one of the api------
+
 -----Swagger Documentation for this is also given--------
         SwaggerUI: http://localhost:9192/swagger-ui.html
         Api Docs : http://localhost:9192/v2/api-docs
