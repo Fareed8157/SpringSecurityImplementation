@@ -12,7 +12,7 @@
 
 5)Update any User
 
------Test cases are written to verify one of the api------
+-----Test cases are written to verify the use case scenarios------
 
 -----Swagger Documentation for this is also given--------
 
